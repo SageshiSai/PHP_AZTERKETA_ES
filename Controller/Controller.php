@@ -1,6 +1,7 @@
 <?php 
 include_once("../Model/database/query.php");
 include_once("../View/Vista.php");
+include_once("../Model/UsuarioModel.php");
 
 session_start();
 if(isset($_POST['Iniciar'])){
